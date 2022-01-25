@@ -1,0 +1,5 @@
+1. Ask user for an integer n
+2. Check if integer is positive
+3. Create a loop, each row is a number of spaces and a hash and a new line \n
+4. Number of spaces is n-i (i=row number)
+5. Number of hashes is i=row number
