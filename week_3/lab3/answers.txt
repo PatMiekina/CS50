@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?:  fastest on sorted .txt
+
+sort2 uses: merge sort
+
+How do you know?: overall the fastest
+
+sort3 uses: selection sort
+
+How do you know?: the slowest, but quick on sorted
