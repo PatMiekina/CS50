@@ -1,0 +1,17 @@
+CREATE TABLE transactions (
+    user_id INTEGER, FOREIGN KEY(id) REFERENCES users(id),
+    symbol TEXT,
+    name TEXT,
+    shares INTEGER,
+    price INTEGER,
+    time TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+CREATE TABLE shares (
+    user_id INTEGER, FOREIGN KEY(id) REFERENCES users(id),
+    symbol TEXT,
+    name TEXT,
+    shares INTEGER,
+    price INTEGER
+);
+
